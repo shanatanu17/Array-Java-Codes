@@ -48,6 +48,17 @@ public class Reverse_array_and_display_it
 		{
 			System.out.print(arr[k]+" ");
 		}
+
+
+		// method 2...........................
+		
+		// just simply printing the array from last index to 0th index , then also we get the elemnents in reverse order..
+
+		
+		// for(int k=0;k<size;k++)
+		// {
+		// 	System.out.print(arr[k]+" ");
+		// }
 		
 		
 		
