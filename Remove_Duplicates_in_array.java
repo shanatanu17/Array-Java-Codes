@@ -1,7 +1,7 @@
 // BRUTE FORCE _____ (Without using Extra space) 
 
 
-public class Remove_Duplicates_in_array
+public class Remove_Duplicates_in_array_Method_2
 {
 	public static void main(String ss[])
 	{

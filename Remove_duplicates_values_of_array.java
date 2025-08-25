@@ -9,6 +9,7 @@ public class Remove_duplicates_values_of_array
 	    int arr[] = new int[]{10,20,30,10,50,30};
 		int n=arr.length;
 		
+		// Extra space we take here...
 		int ans[] = new int[5];
 		int m = ans.length;
 		int k = 0;

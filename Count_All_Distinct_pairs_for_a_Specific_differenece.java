@@ -1,4 +1,4 @@
-// Brute force approach
+// Brute f
 
 
 public class Count_All_Distinct_pairs_for_a_Specific_differenece

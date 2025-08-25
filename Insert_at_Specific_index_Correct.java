@@ -15,7 +15,7 @@ public class Insert_at_Specific_index_Correct
 		int index = sc.nextInt();
 		
 		System.out.println("Enter the Element value to ins");
-		int element= sc.nextInt();
+		int element= ;
 		
 		System.out.println("Enter the array elements which is of size n-1");
 		

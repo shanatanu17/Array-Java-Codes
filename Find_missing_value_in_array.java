@@ -2,7 +2,7 @@ public class Find_missing_value_in_array
 {
   public static void main(String ss[])
   {
-     int arr[] = new int[]{1,4,6,7,11,15};
+     int arr[] = new int[]{1,13,41,55};
 	 
 	 
 	 // this is done , bcz we need to check which is the last element of array and by considering that element 
@@ -22,7 +22,7 @@ public class Find_missing_value_in_array
 		 }
 		 else
 		 {
-			 System.out.println(j);
+			 System.out.print(j+" ");
 			 j++;
 		 }
 	 }

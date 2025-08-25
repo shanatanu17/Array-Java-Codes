@@ -4,7 +4,6 @@ public class Sort_in_Ascending_order
    {
       int arr[] = new int[]{10,12,432,6,21,9,66,90,111,31,66, 12};
 	  
-	  
 	  for(int i=0;i<arr.length;i++)
 	  {
 	     for(int j=i+1;j<arr.length;j++)
