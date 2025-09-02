@@ -9,6 +9,9 @@ public class Rearrange_elements_so_even_and_odd_elements_alternate
 	   int ans[] = new int[n];
 	   
 	   
+	   // by  suing 3 pointers    curr, i , j .....
+	   
+	   
 	   int i = 0;
 	   int j =1;
 	   
