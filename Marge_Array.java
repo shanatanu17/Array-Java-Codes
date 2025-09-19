@@ -1,4 +1,4 @@
-public class Marge_Array
+public class Merge_Array_Using_Two_pointers_Approch
 {
     public static void main(String ss[])
 	{
@@ -8,7 +8,7 @@ public class Marge_Array
 		 int ans[] = new int[arr1.length + arr2.length];
 		 
 		 int i=0;
-		 int j=ans.length/2;
+		 int j=arr1.length;
 		 
 		 
 		 for(int k= 0;k<arr1.length;k++)
@@ -20,7 +20,7 @@ public class Marge_Array
 		 }
 		 
 		 
-		 System.out.println("PRint array");
+		 System.out.println(" Print the merge array ");
 		 for(int l=0;l<ans.length;l++)
 		 {
 		    System.out.print(ans[l]+" ");

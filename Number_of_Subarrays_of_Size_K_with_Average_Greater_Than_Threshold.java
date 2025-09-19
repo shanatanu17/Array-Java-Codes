@@ -55,8 +55,6 @@ public class Number_of_Subarrays_of_Size_K_with_Average_Greater_Than_Threshold
 	  }
 	  
 	  
-	  
-	  
 	  System.out.println("Total number of times the average of subarray is greater than threshold value "+ count);
 	  
    }

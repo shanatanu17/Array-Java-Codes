@@ -1,13 +1,24 @@
-public class Rotate_by_clock_Wise
+// using Extra space --> to store the rotated array values
+// s.c --->O(n)
+// t.c ---> O(n)
+
+
+
+public class Rotate_Array_in_clock_Wise_Direction_in_single_pass
 {
     public static void main(String ss[])
 	{
-	    int arr[] = new int[]{10,20,30,40,50};
+	    int arr[] = new int[]{10,20,30,40,50,60,70,80,90,100};
 		int n = arr.length;
-		int k=2;
 		
-		int ans[] = new int[5];
-		W
+		int rotate = 13;
+		int k= rotate % n;
+		
+		
+		
+		
+		
+		int ans[] = new int[n];
 		
 		
 		int j= 0;

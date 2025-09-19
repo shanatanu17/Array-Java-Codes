@@ -4,18 +4,9 @@ public class Check_Strings_Are_Anagrams_Using_Two_pointers
 {
    public static void main(String ss[])
    {
-      String str1 = "madam";
-	  String str2 = "madamu";
+      String str1 = "mom";
+	  String str2 = "mmo";
 	  
-	  // Edge case 
-	  if(str1.length() != str2.length())
-	  {
-		  System.out.println("Strings are not anagrams bcz both strings are of different lengths");
-	  }
-	  
-	  
-	  // In , java we need to convert string to ----> char array [] , then sort that array.
-	  // then , by comparing both the strings check they are angaram or not.
 	  
 	  char string1[] = str1.toCharArray();
 	  Arrays.sort(string1);
@@ -34,7 +25,6 @@ public class Check_Strings_Are_Anagrams_Using_Two_pointers
 		   flag = 1;
 		   break;
 		 }
-		 i++;
 	  }
 	  
 	  if(flag == 0)

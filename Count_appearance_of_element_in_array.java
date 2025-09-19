@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Count_appearance_of_element_in_array
+public class Count_appearance_of_element_in_array_Correct
 {
     public static void main(String ss[])
 	{
